@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.one{
+    width: 300px;
+
+}
+.box{
+    width: 300px;
+}
+.imageflex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      margin: 5px;
+    padding: 5px;  
+}
+.imageflex h1
+{
+     margin-left: 0px;  
+}
+.size h2
+{
+   /* margin-right: 180px;  */
+}
+.size p
+{
+   
+   padding: 5px; 
+}
+.color h2{
+    margin-right: 180px;
+}
+.red
+{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+.yellow
+{
+    width: 20px;
+    height: 20px;
+    background-color:yellow;
+}
+.blue
+{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+.orange
+{
+    width: 20px;
+    height: 20px;
+    background-color:orange;
+}
+.black
+{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+.color5
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 5px;
+}
+button
+{
+    padding: 8px 30px;
+    width: 80%;
+    background-color: gray;
+    border-radius: 
+    30px;
+    font-size: 15px;
+    margin: 10px 0 0 10px;
+    color: white;
+    border: 1px solid gray;
+}
+ .box
+{
+    height: 220px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: -53%;
+    left: 0;
+    transition: 1s all ease-in;
+}
+.box:hover
+{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+} 
+.bone
+{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
