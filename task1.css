@@ -103,7 +103,7 @@ button
     left: 0;
     transition: 1s all ease-in;
 }
-.box:hover
+ .bone:hover .box
 {
     position: absolute;
     bottom: 5%;
